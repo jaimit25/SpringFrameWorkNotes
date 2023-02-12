@@ -1,0 +1,8 @@
+package com.spring.stereotype;
+
+
+public class Student {
+	
+	private String studentName;
+	private String city;
+}

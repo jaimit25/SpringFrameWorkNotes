@@ -1,0 +1,25 @@
+package com.springcore.ref;
+
+public class B {
+	private int y;
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int x) {
+		this.y = y;
+	}
+
+	@Override
+	public String toString() {
+		return "B [y=" + y + "]";
+	}
+
+	public B() {
+		super();
+		
+	}	
+	
+	
+}

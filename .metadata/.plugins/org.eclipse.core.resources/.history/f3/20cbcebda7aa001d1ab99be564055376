@@ -1,0 +1,11 @@
+package com.spring.javaconfig;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student {
+	public void study() {
+		System.out.println("Student in reading book");
+	}
+}

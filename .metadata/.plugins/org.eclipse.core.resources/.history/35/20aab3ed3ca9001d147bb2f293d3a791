@@ -1,0 +1,118 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<beans name="emp1" class="com.springcore.collections.Emp">
+	
+    <property name="name" value="Radhe"/>
+
+    <property name="phones">
+        <list>
+            <value>92001310101</value>
+            <value>70121092011</value>
+            <value>31973191931</value>
+            <value>41830181010</value>
+        </list>
+    </property>
+
+    <property name="addresses">
+        <set>
+            <value>Delhi</value>
+            <value>Mumbai</value>
+            <value>Lucknow</value>
+            <null/>
+        </set>
+    </property>
+
+    <bean>
+    <property name="courses">
+        <map>
+            <entry key="java" value="2Month"/>
+            <entry key="Python" value="1.2Moths"/>
+            <entry key="c" value="5Months"/>
+        </map>
+    </property>
+</bean>
+
+</beans>
+
+
+
+<!-- beans with collection Framework -->
+
+<!-- list -->
+<!-- <bean>
+    <property name="">
+    <list>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <null/>
+    </list>
+    </property>
+</bean> -->
+
+<!-- Set -->
+<!-- <bean>
+    <property name="">
+    <set>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <null/>
+    </set>
+    </property>
+</bean>
+ -->
+<!-- Map -->
+<!-- <bean>
+    <property name="">
+        <map>
+            <entry key="a" value="1"/>
+            <entry key="b" value="2"/>
+            <entry key="c" value="3"/>
+        </map>
+    </property>
+</bean> -->
+
+<!-- Properties -->
+<!-- <bean>
+    <property name="">
+        <props>
+            <prop key="name">panchal</prop>
+            <prop key="native">vadodara</prop>
+        </props>
+    </property>
+</bean>
+ -->
+</beans>
+
+
+
+
+<!-- place the  config file under the src/main/resources/config.xml-->
+<!-- https://stackoverflow.com/questions/17022058/what-xmlns-schemalocation-to-use-in-spring-context-file -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- declaring the bean/normal java class with the type of injection we want to use ie. setter(when we use property tag)--> 
+<bean class="com.springcore.Student" name="student1">
+    <property name="studentId">
+        <value> 22334</value>
+    </property>
+    <property name="studentName" value="Jaimit"/>
+    <property name="studentAddress" value="Mumbai"/>		
+</bean>
+
+
+
+
+</beans>

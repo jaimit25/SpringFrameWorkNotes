@@ -1,0 +1,96 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- <bean class="com.springcore.Student" name="student3" p:studentId="22336" p:studentName="Khushi" p:studentAddress="Mumbai"/> -->
+
+<beans>
+    <property name="name">
+		Radhe
+	</property> 
+
+    <property name="phones">
+        <list>
+            <value>92001310101</value>
+            <value>70121092011</value>
+            <value>31973191931</value>
+            <value>41830181010</value>
+        </list>
+    </property>
+
+    <property name="addresses">
+        <set>
+            <value>Delhi</value>
+            <value>Mumbai</value>
+            <value>Lucknow</value>
+            <null/>
+        </set>
+    </property>
+
+    <bean>
+    <property name="courses">
+        <map>
+            <entry key="java" value="2Month"/>
+            <entry key="Python" value="1.2Moths"/>
+            <entry key="c" value="5Months"/>
+        </map>
+    </property>
+</bean>
+
+</beans>
+
+
+
+<!-- beans with collection Framework -->
+
+<!-- list -->
+<!-- <bean>
+    <property name="">
+    <list>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <null/>
+    </list>
+    </property>
+</bean> -->
+
+<!-- Set -->
+<!-- <bean>
+    <property name="">
+    <set>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <value>10</value>
+        <null/>
+    </set>
+    </property>
+</bean>
+ -->
+<!-- Map -->
+<!-- <bean>
+    <property name="">
+        <map>
+            <entry key="a" value="1"/>
+            <entry key="b" value="2"/>
+            <entry key="c" value="3"/>
+        </map>
+    </property>
+</bean> -->
+
+<!-- Properties -->
+<!-- <bean>
+    <property name="">
+        <props>
+            <prop key="name">panchal</prop>
+            <prop key="native">vadodara</prop>
+        </props>
+    </property>
+</bean>
+ -->
+</beans>

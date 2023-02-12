@@ -1,0 +1,15 @@
+package com.springcore.ref;
+
+public class B {
+	private int y;
+
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	
+}

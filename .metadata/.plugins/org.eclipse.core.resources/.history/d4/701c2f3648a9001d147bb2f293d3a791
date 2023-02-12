@@ -1,0 +1,7 @@
+package com.springcore.lifecycle;
+
+public class Example {
+	private String name;
+	
+	
+}

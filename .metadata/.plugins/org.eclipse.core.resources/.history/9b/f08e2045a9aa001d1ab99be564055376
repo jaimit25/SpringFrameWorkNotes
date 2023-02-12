@@ -1,0 +1,22 @@
+package com.spring.javaconfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+
+@Configuration // this will remove the use of config.xml file
+@ComponentScan(basePackages="com.spring.javaconfig") // this will collect all the beans from this package, 
+public class JavaConfig {
+	
+	@Bean //this method will return bean object also the name of the method should be similar to ApplicationContext.genBean() method ie. stud;
+	// we can remove @ComponentScan(basePackages="com.spring.javaconfig") when using @Bean Annotation 
+	public Student stud() {
+		Student std = new Student();		
+		return std;
+	}
+	
+	public Samosa getSamosa() {
+		return new Samosa();
+	}
+}

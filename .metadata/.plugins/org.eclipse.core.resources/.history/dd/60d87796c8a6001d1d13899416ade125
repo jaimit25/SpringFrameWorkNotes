@@ -1,0 +1,18 @@
+package com.springcore;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        
+        // we had set up everthing in a xml file so we use ClassPathXmlApplicationContext...
+        ApplicationContext context = new ClassPathXmlApplicationContext(
+        		"services.xml"
+        		//, "daos.xml"
+        		);
+    }
+}
