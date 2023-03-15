@@ -2,9 +2,11 @@
 This Repository contains Detailed notes on Spring Framework
 
 
-springcore - Spring Basics
+A.springcore - Spring Basics<br>
+1) Spring - Annotation based and Normal Injection (construction or config.xml based).<br>
+2) Springcore - Lifecycle etc.
 <br>
-server - Springboot Project (Courses API's) Using JPA. (Java Persistence API) and Mongo DB.
+B.server - Springboot Project (Courses API's) Using JPA. (Java Persistence API) and Mongo DB.
 <br>
-springjdbc - Running SQL on Spring
+C.springjdbc - Running SQL on Spring
 
