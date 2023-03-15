@@ -1,9 +1,0 @@
-package com.spring.standalone.collections;
-import java.util.*;
-
-
-public class Person {
-	
-	private List<String> friends;
-	
-}

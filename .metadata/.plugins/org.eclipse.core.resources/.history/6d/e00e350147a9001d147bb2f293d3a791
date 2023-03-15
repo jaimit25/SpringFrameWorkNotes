@@ -1,8 +1,0 @@
-package com.springcore.lifecycle;
-
-public class pepsi {
-	
-	public double price;
-	
-	
-}

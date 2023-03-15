@@ -25,14 +25,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.jdbc"/>
+			<item value="com.spring.jdbc.springjdbc"/>
 			<item value="com.springcore"/>
 			<item value="com.springcore.springcore"/>
 		</list>
 		<list key="groupId">
+			<item value="com.spring.jdbc"/>
 			<item value="com.springc"/>
 			<item value="com.springcore"/>
 		</list>
 		<list key="artifactId">
+			<item value="springjdbc"/>
 			<item value="springc"/>
 			<item value="springcore"/>
 		</list>
@@ -72,5 +76,18 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/jaimitkumarpanchal/eclipse-workspace/server"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
